@@ -2,6 +2,164 @@
 <html>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p>The market for payment services offers different financial solutions for monetary transactions. It can be either in cash (paper currency), in electronic banking transactions, in payment slips, or with the use of a card. To enable this process to occur in an integrated format, the following actors have roles and responsibilities in the payment arrangement, such as:
+    - Acquirer;
+    - Card Scheme;
+    - Issuer;
+    - Payment Processor.
+    
+    ### Acquirer
+    
+    It is responsible for registering commercial establishments and for providing the resources to capture transactions, such as <<glossary:card machine>>s.
+    
+    ### Card Scheme
+    
+    These <<glossary:card scheme>>s define the payment arrangement format and they are also legally responsible for the orchestration of payments. They define the rules and the procedures to provide payment services to be available. These rules are:
+      *  the terms of settlement;
+      *  the conditions for an institution (either payment or financial institution) to be part of the payment arrangement;
+      *  the security rules to protect cardholders and business owners from risks (for example, fraud in  card cloning, etc.)
+    
+    ### Issuer
+    
+    It is the entity that is allowed to issue cards according to **Central Bank of Brazil** (**BACEN**). Issuers must be either a **Payment Institution** (**IP**) or **Financial Institution** (**IF**) and they are responsible for ensuring the settlement of all participants in the arrangement. The license that enables the issuing of cards belongs to the Issuer and the main responsibilities are to:
+      *   Issue **prepaid** cards, **debit** cards or **credit** cards;
+      *   Authorize (or not) transactions;
+      *   Provide customer assistance and establish a relationship with cardholders;
+      *   Provide credit in case of credit cards (Financial Institutions only);
+      *   Ensure establishments receive their payments.
+    [block:callout]
+    {
+      "type": "warning",
+      "title": "Credit Card Payments",
+      "body": "Issuers must ensure that establishments receive credit card payments regardless if cardholders have paid or not their credit card invoices."
+    }
+    [/block]
+    
+    ### Payment Processor
+    
+    Their role is to offer the technological robustness to guarantee integration among all the participants in the payment arrangement. Small companies, or companies that do not have their core business in the financial industry, who wish to issue their cards need to contract a payment processor so that all this technology is brought within the payment arrangement.
+    
+    It is in the payment processor that the transactions will arrive to be validated and authorized (or not) based on rules and validations built within the Issuer.
+    [block:callout]
+    {
+      "type": "info",
+      "body": "The larger banks process transactions internally inside their own structure and in this case, a separate payment processor is not required.",
+      "title": "The Larger Banks"
+    }
+    [/block]
+    
+    [block:api-header]
+    {
+      "title": "Open Banking"
+    }
+    [/block]
+    ---
+    
+    The **Open Banking** is an initiative of BACEN for the democratization of financial services. The objective is to allow more institutions to offer financial products, to increase competitiveness among products, attracting more consumers, and increasing the capacity to absorb the unbanked population, i.e citizens who still do not have access to a current account.
+    
+    The [Law No. 12,865 of 2013](http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Lei/L12865.htm) eases the access to payment services for part of the Brazillian population, which still uses only cash (paper money) as the main means of payment. This law allows them to take part in payment arrangements using a telecommunication terminal in the services of their choice.
+    
+    It enables a safer environment for the expansion of payment services by payment institutions. This encourages competition by means of a greater offer of payment services and creates the proper conditions to facilitate financial inclusion, i.e. even unbanked citizens are able to make payments and transfers through payment services offered by non-financial institutions, as Dock.
+    [block:api-header]
+    {
+      "title": "Dock's Responsibilities as a Payment Institution in the SFN"
+    }
+    [/block]
+    ---
+    
+    Dock offers to any company the possibility to act as a Payment Institution through a white-label platform offering financial services regulated by BACEN. Therefore, even if you are not a Financial Institution (or bank), you may offer **banking digital services**.
+    
+    The **National Financial System** (**SFN**) is composed of normative agencies, supervisors and operators, acting in the payment arrangements. Here, it will be described the main differences between a payment institution and a financial institution.
+    
+    ### Payment Institution
+    
+    A **Payment Institution** is the legal entity that provides services of purchase and sale and transaction of resources, **without** the possibility of granting loans or financing to their customers. The Payment Institutions are not Financial Institutions, i.e they are not banks, but they are regulated and inspected by BACEN as well.
+    
+    ### Financial Institution
+    
+    A **Financial Institution** is the legal entity that acts as an intermediary between a customer and some type of financial services (such as investment, loans, financing, among other services). It is specialized in intermediating money between savers and those who need loans, in addition to keeping custody of that money.
+    
+    Both Financial and Payment Institutions are supervised by BACEN, which works to enforce the rules and regulations of the SFN. In order to maintain the stability and soundness of the SFN and, consequently, of the economy of a country, it is required an efficient banking system that follows the rules determined by the regulator.
+    [block:api-header]
+    {
+      "title": "Current Account vs. Payment Account"
+    }
+    [/block]
+    ---
+    
+    Both the payment and current accounts enable payment transactions, withdrawals, and the transfer of funds between accounts within the same institution and also between accounts held at different institutions. However, on the payment account, these transactions will only occur if there is a balance, i.e. it is necessary a prior contribution or a deposit of funds in the accounts and unlike current accounts, you **cannot** use cheques in your payment account.
+    
+    ### Current Accounts
+    
+    The **current accounts** are kept only at financial institutions. The funds deposited in these accounts may be used by the institution in financial operations, i.e., they may be used in credit operations (loans and financing) or financial investments.
+    
+    All financial institutions have to provide customer assistance through bank branches (for face-to-face support), alternative channels (such as via phone, mobile, online services, etc.), and even digital accounts (Resolution 4.753 of 2019).
+    [block:callout]
+    {
+      "type": "success",
+      "title": "Money Protection",
+      "body": "All funds deposited in these accounts are protected by the **Credit Guarantee Fund** (**FGC**). The FGC is a civil association in Brazil which guarantees the credits related to the deposit and investment accounts of each customer, in the Financial Institution or in the Financial Conglomerate, up to the amount of BRL 250,000."
+    }
+    [/block]
+    ### Payment Accounts
+    
+    The **payment accounts** are kept at payment institutions or financial institutions. The resources kept in these accounts **cannot** be used in financial intermediation operations, for example, they cannot be used for credit operations. Click [here](doc:payment-accounts) for more details about payment accounts.
+    
+    It is possible that payment institutions belong to groups or conglomerates that Financial Institutions are part of. In this case, even if a person only has a payment account, they are able to access the credit operations offered by a Financial Institution of the group.
+    
+    There are no rules regulating customer assistance for Payment Institutions, which can be exclusively electronic (online, phone, etc.).
+    [block:callout]
+    {
+      "type": "success",
+      "title": "Money Protection",
+      "body": "Although they are not protected by the FGC, in case of bankruptcy,  the resources held in a payment account are protected by the [Law 12.865 of 2013](http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Lei/L12865.htm) and they are kept separate from the assets of the Payment Institution or of the Financial Institution that holds the account."
+    }
+    [/block]
+    
+    [block:api-header]
+    {
+      "title": "FAQ"
+    }
+    [/block]
+    ---
+    
+    ### Can a Payment Institution partner with a Financial Institution to provide Credit?
+    
+    **Yes**. Although Payment Institutions are not organized as financial institutions and cannot perform such activities, the Payment Institutions acting as postpaid card issuers are able to partner with Financial Institutions and offer:
+      * Withdrawal services at ATM terminals;
+      * Payment in Installments for purchases (installments on the Issuer); and/or
+      * Financing your customer's debit balance.
+    
+    In these cases, the Issuing Payment Institution acts only as an intermediary of the operation. Here the contract with the customer must contain the authorization for providing these services by the Financial Institution, by means of a contract clause.
+    
+    ### Are all Payment Institutions authorized by BACEN?
+    
+    **No**. The Central Bank of Brazil requires authorization from the Payment Institution (e-money issuers, postpaid instruments issuers, and acquirers) operating:
+      * above BRL 500,000,000 (five hundred million reais) in payments transactions or
+      * above BRL 50,000,000 (fifty million reais) in resources maintained in a prepaid payment account.
+    
+    The issuers of electronic money (prepaid cards) and issuers of post-paid payment instruments (credit cards) need to calculate the number of payment transactions considering the sum of the amounts relative to payment transactions realized in the last twelve months.
+    
+    The Payment Institution that provides service in more than one of the above-mentioned formats and presents financial values higher than the above-mentioned parameters, in any format, must request authorization to operate in all the services provided.
+    
+    ### Can Payment Institutions with a Settlement Account be part of the Clearing and Settlement Systems?
+    
+    **Yes**. There are Payment Institutions that are authorized to operate and they are also the owners of a Settlement Account in BACEN.  These Payment Institutions may participate directly, for settlement purposes, in the clearing and settlement systems for orders of interbank funds transfer, including the **Interbank Payments Chamber** (**CIP**).
+    [block:callout]
+    {
+      "type": "info",
+      "title": "What is a Settlement Institution?",
+      "body": "The payment arrangements in the SPB uses a centralized clearing and settlement system.  The Settlement (or Bank) Institution is responsible for receiving and paying financial obligations on behalf of the system participants.\n\nA Settlement Institution participates directly in the Clearing and Settlement System. This institution holds a Settlement Account and provides services to an indirect participant, who for operational and/or financial reasons - choose not to participate directly in this system."
+    }
+    [/block]
+    
+    [block:callout]
+    {
+      "type": "info",
+      "body": "In the payment arrangements of the SPB, the commercial establishments contract the card machines or any other payment devices. They also define which bank or which Payment Institution will receive the funds arising from payment transactions performed by customers. This institution is called the **Domicile Institution**.",
+      "title": "What is a Domicile Institution?"
+    }
+    [/block]
+    </p>
 </body>
 </html>
