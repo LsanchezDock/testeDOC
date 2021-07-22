@@ -1,0 +1,66 @@
+{
+    "type": "object",
+    "properties": {
+        "previousPage": {
+            "type": "integer",
+            "description": "Previous page."
+        },
+        "currentPage": {
+            "type": "integer",
+            "description": "Current page."
+        },
+        "nextPage": {
+            "type": "integer",
+            "description": "Next page."
+        },
+        "lastPage": {
+            "type": "boolean",
+            "description": "\"true\" if it is in the last page; \"false\" if it is not in the last page."
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Total number of pages according to the parameter filters."
+        },
+        "totalItems": {
+            "type": "integer",
+            "description": "Total number of records according to the parameter filters."
+        },
+        "maxItemsPerPage": {
+            "type": "integer",
+            "description": "Maximum number of records per page."
+        },
+        "totalItemsPage": {
+            "type": "integer",
+            "description": "Total number of records in the current page."
+        },
+        "items": {
+            "type": "array",
+            "description": "Records found in the request.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "historyId": {
+                        "type": "integer",
+                        "description": "Identification code for a particular change history."
+                    },
+                    "eventCreatedDate": {
+                        "type": "string",
+                        "description": "Date when the change was made."
+                    },
+                    "dataUpdated": {
+                        "type": "string",
+                        "description": "Name of the field changed."
+                    },
+                    "previousValue": {
+                        "type": "string",
+                        "description": "Content of an attribute, which is prior to the change made."
+                    },
+                    "updatedValue": {
+                        "type": "string",
+                        "description": "Content of an attribute, which is subsequent to the change made."
+                    }
+                }
+            }
+        }
+    }
+}
